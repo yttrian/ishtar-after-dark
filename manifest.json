@@ -1,0 +1,29 @@
+{
+    "name": "Nightfall for Ishtar Collective",
+    "version": "1.1.2",
+    "description": "Adds a night mode to the Ishtar Collective website",
+    "permissions": ["storage", "https://www.ishtar-collective.net/*"],
+    "background": {
+        "scripts": ["scripts/background.js"],
+        "persistent": false
+    },
+    "web_accessible_resources": [
+        "styles/nightfall.css",
+        "styles/gambit.css",
+        "styles/the-darkness.css"
+    ],
+    "content_scripts": [{
+        "js": ["scripts/content.js"],
+        "matches": ["https://www.ishtar-collective.net/*"]
+    }],
+    "icons": {
+        "16": "images/nic-16.png",
+        "32": "images/nic-32.png",
+        "48": "images/nic-48.png",
+        "128": "images/nic-128.png"
+    },
+    "browser_action": {
+        "default_popup": "views/popup.html"
+    },
+    "manifest_version": 2
+}

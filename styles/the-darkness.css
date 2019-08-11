@@ -1,0 +1,67 @@
+@import url("nightfall.css");
+
+body {
+    background-color: #151515;
+}
+
+a,
+body,
+.description,
+.intro-text,
+.carousel .banner a,
+.has-banner .header li,
+.has-banner .header li a,
+.has-banner .header li input,
+.has-banner .header li input::placeholder,
+.document-browser.shown a,
+.document-browser-popup a,
+.page-items-index [class*='-thumbnail'] .title,
+.page-search .form-group input,
+.page-errors .form-group input,
+.page-categories-show.has-banner .header-section {
+    color: #6f7171;
+}
+
+.announcements .announcement-posters {
+    filter: grayscale(1);
+}
+
+.page-categories-show .left-column {
+    color: grey;
+}
+
+.color-confidence-0 {
+    background-color: #1f1919;
+}
+
+.color-confidence-1 {
+    background-color: #171d22;
+}
+
+.color-confidence-2 {
+    background-color: #1e2a2b;
+}
+
+.color-confidence-3 {
+    background-color: #21312c;
+}
+
+.page-releases .thumb.release {
+    filter: brightness(.4) grayscale(.2);
+}
+
+.document-browser,
+.document-browser-popup {
+    background-color: #212121;
+}
+
+.icon-confidence-1,
+.icon-confidence-2,
+.icon-confidence-3,
+.release-icon {
+    filter: grayscale(.4) brightness(.9);
+}
+
+.left-column-section {
+    color: #363D3D;
+}

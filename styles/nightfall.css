@@ -1,0 +1,194 @@
+body {
+    background-color: #212121;
+}
+
+a,
+body,
+.description,
+.intro-text,
+.carousel .banner a,
+.has-banner .header li,
+.has-banner .header li a,
+.has-banner .header li input,
+.has-banner .header li input::placeholder,
+.document-browser.shown a,
+.document-browser-popup a,
+.page-items-index [class*='-thumbnail'] .title,
+.page-search .form-group input,
+.page-errors .form-group input,
+.page-categories-show.has-banner .header-section {
+    color: #dadada;
+}
+
+.item-details .item-description {
+    color: #7b7b7b;
+}
+
+.has-banner .header li input {
+    background-image: none;
+}
+
+.has-banner .header li input:focus,
+.has-banner .header li input:valid {
+    border-bottom: 1px solid #dadada;
+}
+
+sup a {
+    color: #904c44;
+}
+
+.carousel .slick-arrow:hover {
+    opacity: .6;
+}
+
+.carousel .banner {
+    background-color: #313131 !important;
+    background-blend-mode: overlay;
+    filter: grayscale(.7);
+    border-bottom-width: .4rem;
+}
+
+.carousel .banner .view-entries a {
+    border: 2px solid #828282;
+}
+
+.banner {
+    filter: grayscale(.4) brightness(.4);
+}
+
+.announcements h2 .icon-ishtar {
+    filter: brightness(.6);
+}
+
+.announcements .announcement-posters {
+    filter: grayscale(.4) brightness(.8);
+}
+
+.header-background {
+    background-color: #101010 !important;
+}
+
+.header-section img,
+.body-section img,
+.left-column img,
+.right-column img {
+    filter: grayscale(.4) brightness(.4);
+}
+
+.tabs .tab {
+    background-color: #1e2121 !important;
+    color: #616161 !important;
+}
+
+.tabs .tab h3,
+.tabs .tab a {
+    color: #969696 !important;
+}
+
+.tabs .tab.selected,
+.tabs .tab.selected:hover {
+    background-color: #4a4a4a !important;
+}
+
+.tabs .tab.selected h3,
+.tabs .tab.selected a,
+.tabs .tab.selected:hover h3,
+.tabs .tab.selected:hover a {
+    color: #bdbdbd !important;
+}
+
+.document-browser,
+.document-browser-popup {
+    background-color: #2e3838;
+}
+
+.color-confidence-0 {
+    background-color: #585050;
+}
+
+.color-confidence-1 {
+    background-color: #2d3a44;
+}
+
+.color-confidence-2 {
+    background-color: #2d4244;
+}
+
+.color-confidence-3 {
+    background-color: #2b443c;
+}
+
+[class*='-thumbnail']:hover .overlay {
+    opacity: 0.5 !important;
+}
+
+[class*='-thumbnail']:hover .title,
+[class*='-thumbnail']:hover .icon-confidence {
+    color: #797979 !important;
+}
+
+.page-releases .thumb.release {
+    filter: brightness(.9) grayscale(.2);
+    border-top: 2px solid #dcffff;
+    border-bottom: 2px solid #dcffff;
+}
+
+.page-credits .staff,
+.page-credits .contributor,
+.page-credits .supporter,
+.page-credits .leader {
+    margin-bottom: 10px;
+    filter: grayscale(1) brightness(.5);
+}
+
+.book-icon {
+    background: none !important;
+}
+
+.patreon-widget {
+    filter: brightness(.5);
+}
+
+.episode-artwork img {
+    filter: grayscale(.4) brightness(.4);
+}
+
+.icon-confidence-1,
+.icon-confidence-2,
+.icon-confidence-3,
+.release-icon,
+.discuss .icon-ishtar.commons {
+    filter: grayscale(.4) brightness(.9);
+}
+
+.left-column-section {
+    color: #99a7a7;
+}
+
+.search-filters ul a {
+    filter: invert(.4);
+}
+
+.page-search .form-group button,
+.page-errors .form-group button {
+    background-color: #333333;
+    background-blend-mode: soft-light;
+}
+
+input,
+select,
+textarea {
+    background: #2b2b2b;
+}
+
+.highlight {
+    background-color: #ff7d0047;
+}
+
+::selection { 
+    background: rgba(145, 145, 233, 0.377); 
+}
+
+.multiline-directive {
+    background-color: #ebebe40f !important;
+}
