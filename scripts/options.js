@@ -14,4 +14,8 @@ document.getElementById('theme').onchange = function () {
     chrome.storage.sync.set({theme: value}, function () {
         console.log('Set theme to ' + value);
     });
+    chrome.tabs.query({active: true, currentWindow: true}, function (arrayOfTabs) {
+        chrome.tabs.reload(arrayOfTabs[0].id);
+    });
+    window.close();
 };
