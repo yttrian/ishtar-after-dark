@@ -8,7 +8,7 @@
    },
    "content_scripts": [ {
       "js": [ "scripts/content.js" ],
-      "matches": [ "https://www.ishtar-collective.net/*" ]
+      "matches": [ "https://www.ishtar-collective.net/*", "https://errata.ishtar-collective.net/*" ]
    } ],
    "description": "Adds a night mode to Ishtar Collective",
    "icons": {

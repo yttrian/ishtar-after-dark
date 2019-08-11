@@ -4,6 +4,7 @@ body {
 
 a,
 body,
+.header.fixed-width h1 a,
 .description,
 .intro-text,
 .carousel .banner a,
@@ -67,6 +68,11 @@ sup a {
 
 .header-background {
     background-color: #101010 !important;
+}
+
+/* Lore Book Entries */
+.book-icon {
+    background: none !important;
 }
 
 /* Release Tab Entries */
@@ -163,6 +169,9 @@ sup a {
 .icon-confidence-2,
 .icon-confidence-3,
 .release-icon,
+.book-icon,
+.feature,
+.post-box,
 .discuss .icon-ishtar.commons {
     filter: grayscale(.4) brightness(.9);
 }
