@@ -17,11 +17,11 @@ body,
 .page-search .form-group input,
 .page-errors .form-group input,
 .page-categories-show.has-banner .header-section {
-    color: #dadada;
+    color: #bcbcbc;
 }
 
 .item-details .item-description {
-    color: #7b7b7b;
+    color: #bcbcbc;
 }
 
 .has-banner .header li input {
@@ -30,30 +30,31 @@ body,
 
 .has-banner .header li input:focus,
 .has-banner .header li input:valid {
-    border-bottom: 1px solid #dadada;
+    border-bottom: 1px solid #bcbcbc;
 }
 
+/* super script*/
 sup a {
-    color: #904c44;
+    color: #bcbcbc;
 }
-
+/* Front Page */
 .carousel .slick-arrow:hover {
-    opacity: .6;
+    opacity: .2;
 }
 
 .carousel .banner {
-    background-color: #313131 !important;
+    background-color: #6e6e6e !important;
     background-blend-mode: overlay;
-    filter: grayscale(.7);
+    filter: grayscale(.05);
     border-bottom-width: .4rem;
 }
 
 .carousel .banner .view-entries a {
-    border: 2px solid #828282;
+    border: 2px solid #c0c0c0;
 }
 
 .banner {
-    filter: grayscale(.4) brightness(.4);
+    filter: grayscale(.3) brightness(.6);
 }
 
 .announcements h2 .icon-ishtar {
@@ -61,24 +62,26 @@ sup a {
 }
 
 .announcements .announcement-posters {
-    filter: grayscale(.4) brightness(.8);
+    filter: grayscale(.1) brightness(.1);
 }
 
 .header-background {
     background-color: #101010 !important;
 }
 
+/* Release Tab Entries */
+
 .header-section img,
 .body-section img,
 .left-column img,
-.right-column img {
-    filter: grayscale(.4) brightness(.4);
+.right-column img { 
+    filter: grayscale(.1) brightness(.3);
 }
 
 .tabs .tab {
     background-color: #1e2121 !important;
-    color: #616161 !important;
-}
+    color: #a0a0a0 !important;
+} 
 
 .tabs .tab h3,
 .tabs .tab a {
@@ -99,11 +102,13 @@ sup a {
 
 .document-browser,
 .document-browser-popup {
-    background-color: #2e3838;
+    background-color: #535353;
 }
 
+/* Color shading over Entries*/
 .color-confidence-0 {
-    background-color: #585050;
+    background-color: #28343d;
+    opacity: 0.5 !important;
 }
 
 .color-confidence-1 {
@@ -119,7 +124,7 @@ sup a {
 }
 
 [class*='-thumbnail']:hover .overlay {
-    opacity: 0.5 !important;
+    opacity: 0.4 !important;
 }
 
 [class*='-thumbnail']:hover .title,
@@ -127,30 +132,31 @@ sup a {
     color: #797979 !important;
 }
 
+/*   Release DLC images */
+
 .page-releases .thumb.release {
-    filter: brightness(.9) grayscale(.2);
+    filter: brightness(.8) grayscale(.3);
     border-top: 2px solid #dcffff;
     border-bottom: 2px solid #dcffff;
 }
+
+
+/* Credits Page */
 
 .page-credits .staff,
 .page-credits .contributor,
 .page-credits .supporter,
 .page-credits .leader {
     margin-bottom: 10px;
-    filter: grayscale(1) brightness(.5);
-}
-
-.book-icon {
-    background: none !important;
+    filter: grayscale(0.8) brightness(.5);
 }
 
 .patreon-widget {
-    filter: brightness(.5);
+    filter: grayscale(0.2)  brightness(.5);
 }
 
 .episode-artwork img {
-    filter: grayscale(.4) brightness(.4);
+    filter: grayscale(.2) brightness(.6);
 }
 
 .icon-confidence-1,

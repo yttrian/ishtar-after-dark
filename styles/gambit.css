@@ -1,7 +1,7 @@
 @import url("nightfall.css");
 
 body {
-    background-color: #363D3D;
+    background-color: #2b3030;
 }
 
 a,
@@ -21,13 +21,20 @@ body,
 .page-search .form-group input,
 .page-errors .form-group input,
 .page-categories-show.has-banner .header-section {
-    color: #F6F6F3 !important;
+    color: #c4c4c2 !important;
 }
 
 @media (min-width: 50em) {
 	.drop-caps:first-letter {
 		border-color: #707979;
 	}
+}
+
+.header-section img,
+.body-section img,
+.left-column img,
+.right-column img {
+    filter: grayscale(.1) brightness(.2);
 }
 
 .carousel .banner {
@@ -42,13 +49,17 @@ body,
     filter: none;
 }
 
+/*   Release DLC images */
+
 .page-releases .thumb.release {
-    filter: none;
+    filter: brightness(.72) grayscale(.2);
+    border-top: 2px solid #dcffff;
+    border-bottom: 2px solid #dcffff;
 }
 
 .page-releases .thumb.release.release-destiny,
 .page-releases .thumb.release.release-destiny-2 {
-    filter: brightness(3);
+    filter: brightness(1.5);
 }
 
 .icon-confidence-1,
@@ -57,4 +68,13 @@ body,
 .release-icon,
 .discuss .icon-ishtar.commons {
     filter: grayscale(0) brightness(.6);
+}
+
+
+.page-credits .staff,
+.page-credits .contributor,
+.page-credits .supporter,
+.page-credits .leader {
+    margin-bottom: 10px;
+    filter: grayscale(0.2) brightness(.5);
 }
