@@ -69,6 +69,11 @@ sup a {
     background-color: #101010 !important;
 }
 
+/* Lore Book Entries */
+.book-icon {
+    background: none !important;
+}
+
 /* Release Tab Entries */
 
 .header-section img,
@@ -163,6 +168,8 @@ sup a {
 .icon-confidence-2,
 .icon-confidence-3,
 .release-icon,
+.book-icon,
+.feature,
 .discuss .icon-ishtar.commons {
     filter: grayscale(.4) brightness(.9);
 }
