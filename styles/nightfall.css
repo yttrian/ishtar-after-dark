@@ -4,6 +4,7 @@ body {
 
 a,
 body,
+.header.fixed-width h1 a,
 .description,
 .intro-text,
 .carousel .banner a,
@@ -170,6 +171,7 @@ sup a {
 .release-icon,
 .book-icon,
 .feature,
+.post-box,
 .discuss .icon-ishtar.commons {
     filter: grayscale(.4) brightness(.9);
 }
