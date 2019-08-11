@@ -1,7 +1,7 @@
 @import url("nightfall.css");
 
 body {
-    background-color: #151515;
+    background-color: #101010;
 }
 
 a,
@@ -19,7 +19,7 @@ body,
 .page-search .form-group input,
 .page-errors .form-group input,
 .page-categories-show.has-banner .header-section {
-    color: #6f7171;
+    color: #8b8d8d;
 }
 
 .announcements .announcement-posters {
@@ -31,7 +31,8 @@ body,
 }
 
 .color-confidence-0 {
-    background-color: #1f1919;
+    background-color: #352f2f;
+    opacity: .2;
 }
 
 .color-confidence-1 {
@@ -64,4 +65,27 @@ body,
 
 .left-column-section {
     color: #363D3D;
+}
+
+
+.tabs .tab {
+    background-color: #1e2121 !important;
+    color: #a0a0a0 !important;
+} 
+
+.tabs .tab h3,
+.tabs .tab a {
+    color: #5a5a5a !important;
+}
+
+.tabs .tab.selected,
+.tabs .tab.selected:hover {
+    background-color: #3b3b3b !important;
+}
+
+.tabs .tab.selected h3,
+.tabs .tab.selected a,
+.tabs .tab.selected:hover h3,
+.tabs .tab.selected:hover a {
+    color: #848484 !important;
 }
