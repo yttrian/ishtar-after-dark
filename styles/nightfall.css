@@ -19,12 +19,12 @@ body,
     color: #bcbcbc;
 }
 
-.item-details .item-description {
-    color: #bcbcbc;
-}
-
 .has-banner .header li input {
     filter: brightness(.7);
+}
+
+.item-details .item-description {
+    color: #bcbcbc;
 }
 
 .has-banner .header li input:focus,
