@@ -10,8 +10,6 @@ body,
 .carousel .banner a,
 .has-banner .header li,
 .has-banner .header li a,
-.has-banner .header li input,
-.has-banner .header li input::placeholder,
 .document-browser.shown a,
 .document-browser-popup a,
 .page-items-index [class*='-thumbnail'] .title,
@@ -26,7 +24,7 @@ body,
 }
 
 .has-banner .header li input {
-    background-image: none;
+    filter: brightness(.7);
 }
 
 .has-banner .header li input:focus,
