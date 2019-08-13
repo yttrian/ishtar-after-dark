@@ -205,3 +205,8 @@ textarea {
 .multiline-directive {
     background-color: #ebebe40f !important;
 }
+
+/* Search Bar Invert */
+.form-group {
+    filter: invert(1);
+}
