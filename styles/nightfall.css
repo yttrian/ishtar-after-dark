@@ -8,6 +8,8 @@ body,
 .description,
 .intro-text,
 .carousel .banner a,
+.page-grimoire_cards-show .description,
+.page-grimoire_cards-show .intro-text,
 .has-banner .header li,
 .has-banner .header li a,
 .has-banner .header li input,
@@ -26,7 +28,7 @@ body,
 }
 
 .has-banner .header li input {
-    background-image: none;
+    filter: brightness(0.8); 
 }
 
 .has-banner .header li input:focus,
@@ -46,8 +48,8 @@ sup a {
 .carousel .banner {
     background-color: #6e6e6e !important;
     background-blend-mode: overlay;
-    filter: grayscale(.05);
-    border-bottom-width: .4rem;
+    filter: grayscale(.5);
+    border-bottom-width: .rem;
 }
 
 .carousel .banner .view-entries a {
@@ -119,14 +121,17 @@ sup a {
 
 .color-confidence-1 {
     background-color: #2d3a44;
+    opacity: 0.5 !important;
 }
 
 .color-confidence-2 {
     background-color: #2d4244;
+    opacity: 0.5 !important;
 }
 
 .color-confidence-3 {
-    background-color: #2b443c;
+    background-color: #36263d;
+    opacity: 0.5 !important;
 }
 
 [class*='-thumbnail']:hover .overlay {
@@ -206,4 +211,10 @@ textarea {
 
 .multiline-directive {
     background-color: #ebebe40f !important;
+}
+
+
+/* Search Bar Zone */
+.form-group {
+    filter: invert(1);
 }
