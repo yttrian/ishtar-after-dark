@@ -17,11 +17,21 @@ body,
 .page-search .form-group input,
 .page-errors .form-group input,
 .page-categories-show.has-banner .header-section {
-    color: #8b8d8d;
+    color: #bdbebe;
 }
+
 
 .has-banner .header li input {
     filter: brightness(.5);
+}
+
+.title,
+.pre-title {
+    color: #bdbebe;
+}
+
+.item-details .item-description {
+    color: #bdbebe;
 }
 
 .announcements .announcement-posters {
@@ -34,7 +44,7 @@ body,
 
 .color-confidence-0 {
     background-color: #352f2f;
-    opacity: .2;
+    opacity: .2 !important;
 }
 
 .color-confidence-1 {
