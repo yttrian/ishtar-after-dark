@@ -45,6 +45,16 @@ sup a {
     opacity: .2;
 }
 
+.page-home-index .feature a .image {
+    background-color: #352f2f;
+    opacity: .5 !important;
+}
+
+.title,
+.pre-title {
+    color :#bcbcbc ;
+}
+
 .carousel .banner {
     background-color: #6e6e6e !important;
     background-blend-mode: overlay;
