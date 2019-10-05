@@ -1,0 +1,141 @@
+@import url("nightfall.css");
+
+body {
+    background-color: #021E26;
+}
+
+a,
+body,
+.description,
+.intro-text,
+.carousel .banner a,
+.has-banner .header li,
+.has-banner .header li a,
+.has-banner .header li input,
+.has-banner .header li input::placeholder,
+.document-browser.shown a,
+.document-browser-popup a,
+.page-items-index [class*='-thumbnail'] .title,
+.page-search .form-group input,
+.page-errors .form-group input,
+.page-categories-show.has-banner .header-section {
+    color: #829195;
+}
+
+
+.title {
+    color: #42575D;
+}
+
+
+.announcements .announcement-posters {
+    filter: grayscale(1);
+}
+
+.page-categories-show .left-column {
+    color: grey;
+}
+
+.color-confidence-0 {
+    background-color: #213D46;
+    opacity: .2;
+}
+
+.color-confidence-1 {
+    background-color: #171d22;
+    opacity: .2;
+}
+
+.color-confidence-2 {
+    background-color: #1e2a2b;
+    opacity: .2;
+}
+
+.color-confidence-3 {
+    background-color: #285044;
+    opacity: .2;
+}
+
+.page-releases .thumb.release {
+    filter: grayscale(0.3) brightness(.75);
+}
+
+.document-browser,
+.document-browser-popup {
+    background-color: #212121;
+}
+
+.icon-confidence-1,
+.icon-confidence-2,
+.icon-confidence-3,
+.release-icon {
+    filter: grayscale(0.4) brightness(.9);
+}
+
+.left-column-section {
+    color: #363D3D;
+}
+
+.header-section img,
+.body-section img,
+.left-column img,
+.right-column img { 
+    filter: grayscale(0) brightness(.3);
+}
+
+.tabs .tab {
+    background-color: #1e2121 !important;
+    color: #a0a0a0 !important;
+} 
+
+.tabs .tab h3,
+.tabs .tab a {
+    color: #969696 !important;
+}
+
+.tabs .tab.selected,
+.tabs .tab.selected:hover {
+    background-color: #4a4a4a !important;
+}
+
+.tabs .tab.selected h3,
+.tabs .tab.selected a,
+.tabs .tab.selected:hover h3,
+.tabs .tab.selected:hover a {
+    color: #bdbdbd !important;
+}
+
+/*   Release DLC images */
+
+.page-releases .thumb.release {
+    filter: grayscale (0.5) brightness(1);
+    border-top: 2px solid #dcffff;
+    border-bottom: 2px solid #dcffff;
+}
+
+
+/* Credits Page */
+
+.page-credits .staff,
+.page-credits .contributor,
+.page-credits .supporter,
+.page-credits .leader {
+    margin-bottom: 10px;
+    filter: grayscale(0.8) brightness(.5);
+}
+
+.patreon-widget {
+    filter: grayscale(0.2) brightness(.5);
+}
+
+.episode-artwork img {
+    filter: grayscale(.2) brightness(.6);
+}
+
+/*Front Page*/
+
+.carousel .banner {
+    background-color: #334554 !important;
+    background-blend-mode: overlay;
+    border-bottom-width: 1rem;
+}
