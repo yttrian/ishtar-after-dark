@@ -12,8 +12,6 @@ body,
 .page-grimoire_cards-show .intro-text,
 .has-banner .header li,
 .has-banner .header li a,
-.has-banner .header li input,
-.has-banner .header li input::placeholder,
 .document-browser.shown a,
 .document-browser-popup a,
 .page-items-index [class*='-thumbnail'] .title,
@@ -21,6 +19,10 @@ body,
 .page-errors .form-group input,
 .page-categories-show.has-banner .header-section {
     color: #bcbcbc;
+}
+
+.has-banner .header li input {
+    filter: brightness(.7);
 }
 
 .item-details .item-description {
@@ -224,7 +226,8 @@ textarea {
 }
 
 
-/* Search Bar Zone */
+/* Search Bar Invert */
+
 .form-group {
     filter: invert(1);
 }

@@ -11,8 +11,6 @@ body,
 .carousel .banner a,
 .has-banner .header li,
 .has-banner .header li a,
-.has-banner .header li input,
-.has-banner .header li input::placeholder,
 .document-browser.shown a,
 .document-browser-popup a,
 .page-items-index [class*='-thumbnail'] .title,
@@ -23,16 +21,18 @@ body,
 }
 
 
+.has-banner .header li input {
+    filter: brightness(.5);
+}
+
 .title,
 .pre-title {
     color: #bdbebe;
 }
 
-
 .item-details .item-description {
     color: #bdbebe;
 }
-
 
 .announcements .announcement-posters {
     filter: grayscale(1);

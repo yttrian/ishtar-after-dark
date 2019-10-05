@@ -11,10 +11,6 @@ body,
 .carousel .banner a,
 .has-banner .header li,
 .has-banner .header li a,
-.has-banner .header li input,
-.header input,
-.header input::placeholder,
-.has-banner .header li input::placeholder,
 .document-browser.shown a,
 .document-browser-popup a,
 .page-items-index [class*='-thumbnail'] .title,
@@ -22,6 +18,10 @@ body,
 .page-errors .form-group input,
 .page-categories-show.has-banner .header-section {
     color: #c4c4c2 !important;
+}
+
+.has-banner .header li input {
+    filter: brightness(.8);
 }
 
 @media (min-width: 50em) {
