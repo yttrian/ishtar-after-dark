@@ -64,7 +64,8 @@ body,
     opacity: .6 !important;
 }
 
-.page-items-show .thumbnail-large {
+.page-items-show .thumbnail-large,
+.header-section img, .body-section img, .left-column img, .right-column img {
     filter: grayscale(.2) brightness(.7);
     opacity: 1 !important;
 }
@@ -86,7 +87,7 @@ body,
 }
 
 .left-column-section {
-    color: #363D3D;
+    color: #cacbcb;
 }
 
 
