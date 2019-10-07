@@ -3,14 +3,24 @@
 'use strict';
 
 chrome.storage.sync.get(['theme'], function (result) {
-    var link = document.createElement('link'),
-        theme = result.theme;
+    applyTheme(result.theme);
+});
 
-    if (theme !== undefined && theme !== 'off') {
-        link.href = chrome.extension.getURL('/styles/' + theme + '.css');
+function applyTheme(theme) {
+    var link = document.getElementById('after-dark');
+
+    if (!link) {
+        link = document.createElement('link');
         link.type = 'text/css';
         link.rel = 'stylesheet';
-
-        document.getElementsByTagName('head')[0].appendChild(link);
+        link.id = 'after-dark';
     }
-});
+
+    link.href = chrome.extension.getURL('/styles/' + theme + '.css');
+    
+    if (theme !== undefined && theme !== 'off') {
+        document.getElementsByTagName('head')[0].appendChild(link);
+    } else {
+        link.remove();
+    }
+}

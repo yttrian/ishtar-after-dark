@@ -15,7 +15,7 @@ document.getElementById('theme').onchange = function () {
         console.log('Set theme to ' + value);
     });
     chrome.tabs.query({active: true, currentWindow: true}, function (arrayOfTabs) {
-        chrome.tabs.reload(arrayOfTabs[0].id);
+        chrome.tabs.executeScript(arrayOfTabs[0].id, {'code': 'applyTheme("' + value + '")'});
     });
     window.close();
 };
