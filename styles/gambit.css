@@ -11,6 +11,10 @@ body,
 .carousel .banner a,
 .has-banner .header li,
 .has-banner .header li a,
+.has-banner .header li input,
+.header input,
+.header input::placeholder,
+.has-banner .header li input::placeholder,
 .document-browser.shown a,
 .document-browser-popup a,
 .page-items-index [class*='-thumbnail'] .title,
@@ -67,7 +71,7 @@ body,
 .icon-confidence-3,
 .release-icon,
 .discuss .icon-ishtar.commons {
-    filter: grayscale(0) brightness(.6);
+    filter: grayscale(0.1) brightness(.8);
 }
 
 
@@ -77,4 +81,136 @@ body,
 .page-credits .leader {
     margin-bottom: 10px;
     filter: grayscale(0.2) brightness(.5);
+}
+
+
+.search-dark-2eacfab451275811395394869ae579ca78240b1ce0e1efedbe218d82ced35170.png {
+    filter: greyscale(0.4) brightness (7) !important;
+}
+
+
+
+/*Commons Site*/
+
+.nav-pills > li,
+.nav-pills > li > a,
+.topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title,
+.category-list .category-name,
+.user-main .about .secondary dd,
+.stats-section .value,
+.groups-boxes .group-box .group-box-inner .group-info-wrapper .group-info span {
+    color: #c4c4c2;
+}
+
+.large-notification a span:first-child {
+    color: #757574;
+}
+
+.user-main .about .secondary dt,
+.stats-section .label {
+    color: #797979;
+}
+
+#user-card.show, #group-card.show,
+#user-card.no-bg .card-content, #group-card.no-bg .card-content,
+#user-card .first-row .names .name-username-wrapper, #group-card .first-row .names .name-username-wrapper,
+#user-card h3, #group-card h3,
+#user-card .third-row .location-and-website .website-name a, #user-card .third-row .location-and-website .location span,
+.select-kit.dropdown-select-box.period-chooser .period-chooser-header h2.selected-name .date-section,
+#list-area .top-lists h2 {
+    color: #bcbcbc;
+    background-color: #383838;
+}
+
+tbody {
+    border-top: 3px solid #c4c4c2;
+}
+
+.table-heading,
+.latest-topic-list-item {
+    border-bottom: 3px solid #cacbcb;
+}
+
+.category-logo.aspect-image img {
+    filter: grayscale(.2) brightness(.8);
+}
+
+.nav-pills > li a.active,
+.list-controls .btn,
+.d-header,
+.btn[href],
+.topic-list .topic-list-item-separator td span,
+button.dismiss-read,
+.btn,
+.controls {
+    filter: grayscale(.2) brightness(.8);
+}
+
+.topic-list .badge-notification {
+    filter: grayscale(.1) brightness(.9);
+}
+
+.topic-list .topic-list-item-separator td {
+    border-bottom: 2px solid #914f48;
+}
+
+.select-kit.combo-box.category-drop .category-drop-header.is-none .selected-name,
+.list-controls .select-kit {
+    color: #c4c4c2;
+}
+
+img.avatar,
+.avatar-wrapper {
+    filter: grayscale(.2) brightness(.9);
+    background: none !important;
+}
+
+.user-main .about.has-background .user-profile-image {
+    filter: grayscale(.2) brightness(.9);
+}
+
+
+.user-content h2,
+.user-stream .excerpt,
+.user-stream .title,
+.stream-topic-details,
+.badge-wrapper.bullet,
+.user-stream .time, .user-stream .delete-info, .user-stream .draft-type,
+.user-stream .item, .user-stream .user-stream-item,
+.user-content .paginated-topics-list,
+.user-content .list-actions,
+.user-content-wrapper .user-secondary-navigation + .user-content,
+.user-main .user-content .admin-controls nav .nav-pills,
+.user-content-wrapper .solo-preference, .user-content-wrapper .user-content, .user-content-wrapper .spinner,
+#user-card .sixth-row .badge-section .user-badge, #user-card .sixth-row .badge-section .more-user-badges a {
+    background-color: #2b3030 !important;
+    color: #c4c4c2;
+}
+
+.d-editor-preview {
+    color: #2b3030 !important;
+}
+
+.select-kit.combo-box .select-kit-header,
+.select-kit .select-kit-header .selected-name,
+.user-main .about.has-background .details {
+    background: #2b3030;
+}
+
+.badge-card .badge-contents,
+.badge-card .badge-contents .badge-info,
+.badge-card .badge-contents .badge-link {
+    background-color: #2b3030;
+    color: #c4c4c2;
+}
+
+/*Errata Support*/
+
+.post-box .post-image {
+    filter: grayscale(.2) brightness(.8);
+    opacity: 0.8 !important;
+}
+
+.post-box .post-text h3, .post-box .post-text .description, .post-box .post-text .details {
+    color: #c4c4c2;
 }
