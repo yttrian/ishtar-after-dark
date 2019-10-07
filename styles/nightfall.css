@@ -6,17 +6,21 @@ a,
 body,
 .header.fixed-width h1 a,
 .description,
-.intro-text,
-.carousel .banner a,
-.page-grimoire_cards-show .description,
+.description.drop-caps,
 .page-grimoire_cards-show .intro-text,
+.carousel .banner a,
 .has-banner .header li,
 .has-banner .header li a,
 .document-browser.shown a,
 .document-browser-popup a,
+.page-grimoire_cards-show .description,
 .page-items-index [class*='-thumbnail'] .title,
 .page-search .form-group input,
 .page-errors .form-group input,
+.page-categories-show h2,
+.page-categories-show .icon-category,
+.page-categories-show .icon-chronological, .page-categories-show .icon-timeline, .page-categories-show .icon-featured,
+.item-details .item-display-source,
 .page-categories-show.has-banner .header-section {
     color: #bcbcbc;
 }
@@ -42,6 +46,7 @@ body,
 sup a {
     color: #bcbcbc;
 }
+
 /* Front Page */
 .carousel .slick-arrow:hover {
     opacity: .2;
@@ -68,7 +73,8 @@ sup a {
     border: 2px solid #c0c0c0;
 }
 
-.banner {
+.banner,
+.home banner full-width {
     filter: grayscale(.3) brightness(.6);
 }
 
@@ -146,6 +152,19 @@ sup a {
     opacity: 0.5 !important;
 }
 
+
+/*For the images on the lore tabs*/
+.page-grimoire_cards-show .thumbnail-large {
+    filter: grayscale(.2) brightness(.7);
+}
+
+.page-items-show .thumbnail-large,
+.page-entries-show .image img,
+.header-section img, .body-section img, .left-column img, .right-column img {
+    filter: grayscale(.2) brightness(.7);
+    opacity: 1 !important;
+}
+
 [class*='-thumbnail']:hover .overlay {
     opacity: 0.4 !important;
 }
@@ -166,12 +185,12 @@ sup a {
 
 /* Credits Page */
 
-.page-credits .staff,
-.page-credits .contributor,
-.page-credits .supporter,
-.page-credits .leader {
+.page-credits .staff img,
+.page-credits .contributor img,
+.page-credits .supporter img,
+.page-credits .leader img {
     margin-bottom: 10px;
-    filter: grayscale(0.8) brightness(.5);
+    filter: grayscale(.2) brightness(.5);
 }
 
 .patreon-widget {
@@ -193,8 +212,8 @@ sup a {
     filter: grayscale(.4) brightness(.9);
 }
 
-.left-column-section {
-    color: #99a7a7;
+..left-column-section {
+    color: #bcbcbc;
 }
 
 .search-filters ul a {
@@ -226,8 +245,132 @@ textarea {
 }
 
 
-/* Search Bar Invert */
+/* Search Bar Zone */
+.form-group,
+.has-banner .header li input {
+    filter: invert(1) !important;
+}
 
-.form-group {
-    filter: invert(1);
+
+
+
+/*Commons Site*/
+
+.nav-pills > li,
+.nav-pills > li > a,
+.topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title,
+.category-list .category-name,
+.user-main .about .secondary dd,
+.stats-section .value,
+.groups-boxes .group-box .group-box-inner .group-info-wrapper .group-info span {
+    color: #bcbcbc;
+}
+
+.user-main .about .secondary dt,
+.stats-section .label {
+    color: #797979;
+}
+
+#user-card.show, #group-card.show,
+#user-card.no-bg .card-content, #group-card.no-bg .card-content,
+#user-card .first-row .names .name-username-wrapper, #group-card .first-row .names .name-username-wrapper,
+#user-card h3, #group-card h3,
+#user-card .third-row .location-and-website .website-name a, #user-card .third-row .location-and-website .location span,
+.select-kit.dropdown-select-box.period-chooser .period-chooser-header h2.selected-name .date-section,
+#list-area .top-lists h2 {
+    color: #bcbcbc;
+    background-color: #212121;
+}
+
+tbody {
+    border-top: 3px solid #bcbcbc;
+}
+
+.table-heading,
+.latest-topic-list-item {
+    border-bottom: 3px solid #cacbcb;
+}
+
+.category-logo.aspect-image img {
+    filter: grayscale(.25) brightness(.7);
+}
+
+.nav-pills > li a.active,
+.list-controls .btn,
+.d-header,
+.btn[href],
+.topic-list .topic-list-item-separator td span,
+button.dismiss-read,
+.btn,
+.controls {
+    filter: grayscale(.2) brightness(.8);
+}
+
+.topic-list .badge-notification {
+    filter: grayscale(.1) brightness(.9);
+}
+
+.topic-list .topic-list-item-separator td {
+    border-bottom: 2px solid #914f48;
+}
+
+.select-kit.combo-box.category-drop .category-drop-header.is-none .selected-name,
+.list-controls .select-kit {
+    color: #bcbcbc;
+}
+
+img.avatar,
+.avatar-wrapper {
+    filter: grayscale(.2) brightness(.9);
+    background: none !important;
+}
+
+.user-main .about.has-background .user-profile-image {
+    filter: grayscale(.2) brightness(.9);
+}
+
+
+.user-content h2,
+.user-stream .excerpt,
+.user-stream .title,
+.stream-topic-details,
+.badge-wrapper.bullet,
+.user-stream .time, .user-stream .delete-info, .user-stream .draft-type,
+.user-stream .item, .user-stream .user-stream-item,
+.user-content .paginated-topics-list,
+.user-content .list-actions,
+.user-content-wrapper .user-secondary-navigation + .user-content,
+.user-main .user-content .admin-controls nav .nav-pills,
+.user-content-wrapper .solo-preference, .user-content-wrapper .user-content, .user-content-wrapper .spinner,
+#user-card .sixth-row .badge-section .user-badge, #user-card .sixth-row .badge-section .more-user-badges a {
+    background-color: #212121 !important;
+    color: #bcbcbc;
+}
+
+.d-editor-preview {
+    color: #212121 !important;
+}
+
+.select-kit.combo-box .select-kit-header,
+.select-kit .select-kit-header .selected-name,
+.user-main .about.has-background .details {
+    background: #212121;
+}
+
+.badge-card .badge-contents,
+.badge-card .badge-contents .badge-info,
+.badge-card .badge-contents .badge-link {
+    background-color: #212121;
+    color: #bcbcbc;
+}
+
+/*Errata Support*/
+
+.post-box .post-image {
+    filter: grayscale(.2) brightness(.8);
+    opacity: 0.8 !important;
+}
+
+.post-box .post-text h3, .post-box .post-text .description, .post-box .post-text .details {
+    color: #bcbcbc;
 }
