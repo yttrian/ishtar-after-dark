@@ -1,7 +1,7 @@
 @import url("nightfall.css");
 
 body {
-    background-color: #101010;
+    background-color: #060606;
 }
 
 a,
@@ -17,7 +17,7 @@ body,
 .page-search .form-group input,
 .page-errors .form-group input,
 .page-categories-show.has-banner .header-section {
-    color: #bdbebe;
+    color: #cacbcb;
 }
 
 
@@ -27,11 +27,11 @@ body,
 
 .title,
 .pre-title {
-    color: #bdbebe;
+    color: #cacbcb;
 }
 
 .item-details .item-description {
-    color: #bdbebe;
+    color: #cacbcb;
 }
 
 .announcements .announcement-posters {
@@ -59,6 +59,16 @@ body,
     background-color: #21312c;
 }
 
+.page-grimoire_cards-show .thumbnail-large {
+    background-color: #171d22;
+    opacity: .6 !important;
+}
+
+.page-items-show .thumbnail-large {
+    filter: grayscale(.2) brightness(.7);
+    opacity: 1 !important;
+}
+
 .page-releases .thumb.release {
     filter: brightness(.4) grayscale(.2);
 }
@@ -81,23 +91,158 @@ body,
 
 
 .tabs .tab {
-    background-color: #1e2121 !important;
-    color: #a0a0a0 !important;
+    background-color: #191a1a !important;
+    color: #cacbcb !important;
 } 
 
 .tabs .tab h3,
 .tabs .tab a {
-    color: #5a5a5a !important;
+    color: #cacbcb !important;
 }
 
 .tabs .tab.selected,
 .tabs .tab.selected:hover {
-    background-color: #3b3b3b !important;
+    background-color: #404141 !important;
 }
 
 .tabs .tab.selected h3,
 .tabs .tab.selected a,
 .tabs .tab.selected:hover h3,
 .tabs .tab.selected:hover a {
-    color: #848484 !important;
+        color: #8d8e8e !important;
+ }
+
+
+/*Credits Page*/
+
+.page-credits .staff,
+.page-credits .contributor,
+.page-credits .supporter,
+.page-credits .leader {
+    margin-bottom: 10px;
+    filter: grayscale(.2) brightness(.6);
 }
+
+
+.patreon-widget {
+    filter: grayscale(.2) brightness(.6);
+}
+
+.episode-artwork img {
+    filter: grayscale(.2) brightness(.7);
+}
+
+.icon-confidence-1,
+.icon-confidence-2,
+.icon-confidence-3,
+.release-icon,
+.discuss .icon-ishtar.commons {
+    filter: grayscale(.4) brightness(.9);
+}
+
+
+
+
+/*Commons Site*/
+
+.nav-pills > li,
+.nav-pills > li > a,
+.topic-list-main-link a.title, .topic-list .main-link a.title, .latest-topic-list-item .main-link a.title,
+.category-list .category-name,
+.user-main .about .secondary dd,
+.stats-section .value {
+    color: #cacbcb;
+}
+
+.user-main .about .secondary dt,
+.stats-section .label {
+    color: #797979;
+}
+
+#user-card.show, #group-card.show,
+#user-card.no-bg .card-content, #group-card.no-bg .card-content,
+#user-card .first-row .names .name-username-wrapper, #group-card .first-row .names .name-username-wrapper,
+#user-card h3, #group-card h3 {
+    color: #cacbcb;
+    background-color: #141415;
+}
+
+tbody {
+    border-top: 3px solid #cacbcb;
+}
+.table-heading,
+.latest-topic-list-item {
+    border-bottom: 3px solid #cacbcb;
+}
+
+.category-logo.aspect-image img {
+    filter: grayscale(.25) brightness(.7);
+}
+
+.nav-pills > li a.active,
+.list-controls .btn,
+.d-header,
+.btn[href],
+.topic-list .topic-list-item-separator td span,
+button.dismiss-read,
+.btn,
+.controls {
+    filter: grayscale(.2) brightness(.8);
+}
+
+.topic-list .badge-notification {
+    filter: grayscale(.1) brightness(.9);
+}
+
+.topic-list .topic-list-item-separator td {
+    border-bottom: 2px solid #914f48;
+}
+
+.select-kit.combo-box.category-drop .category-drop-header.is-none .selected-name,
+.list-controls .select-kit {
+    
+    color: #cacbcb;
+}
+
+img.avatar,
+.avatar-wrapper {
+    filter: grayscale(.2) brightness(.9);
+    background: none !important;
+}
+
+
+.user-content h2,
+.user-stream .excerpt,
+.user-stream .title,
+.stream-topic-details,
+.badge-wrapper.bullet,
+.user-stream .time, .user-stream .delete-info, .user-stream .draft-type,
+.user-stream .item, .user-stream .user-stream-item,
+.user-content .paginated-topics-list,
+.user-content .list-actions,
+.user-content-wrapper .user-secondary-navigation + .user-content,
+.user-main .user-content .admin-controls nav .nav-pills,
+.user-content-wrapper .solo-preference, .user-content-wrapper .user-content, .user-content-wrapper .spinner,
+#user-card .sixth-row .badge-section .user-badge, #user-card .sixth-row .badge-section .more-user-badges a {
+    background-color: #060606 !important;
+    color: #cacbcb;
+}
+
+.d-editor-preview {
+    color: #060606 !important;
+}
+
+.select-kit.combo-box .select-kit-header,
+.select-kit .select-kit-header .selected-name,
+.user-main .about.has-background .details {
+    background: #060606;
+}
+
+.badge-card .badge-contents,
+.badge-card .badge-contents .badge-info,
+.badge-card .badge-contents .badge-link {
+    background-color: #060606;
+    color: #cacbcb;
+}
+
+
