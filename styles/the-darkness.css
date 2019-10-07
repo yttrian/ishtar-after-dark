@@ -247,3 +247,12 @@ img.avatar,
 }
 
 
+/*Errata Support*/
+
+.post-box .post-image {
+    filter: grayscale(.2) brightness(.7);
+    opacity: 0.8 !important;
+}
+.post-box .post-text h3, .post-box .post-text .description, .post-box .post-text .details {
+    color: #cacbcb;
+}
