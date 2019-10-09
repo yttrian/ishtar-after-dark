@@ -237,7 +237,7 @@ textarea {
 }
 
 ::selection { 
-    background: rgba(145, 145, 233, 0.377); 
+    background: rgba(145, 200, 233, 0.47); 
 }
 
 .multiline-directive {
