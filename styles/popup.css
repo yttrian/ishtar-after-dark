@@ -38,3 +38,20 @@ select {
 .note {
     margin-top: .2rem
 }
+
+footer a {
+    color: #a1a1a1;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li:not(:first-child)::before {
+    content: "-";
+    margin-right: .2rem;
+}
