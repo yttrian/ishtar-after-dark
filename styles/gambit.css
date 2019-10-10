@@ -214,3 +214,44 @@ img.avatar,
 .post-box .post-text h3, .post-box .post-text .description, .post-box .post-text .details {
     color: #c4c4c2;
 }
+
+
+
+
+/*Store Page*/
+
+.top-bar a, .site-header a,
+.product__title a, .collection__title a,
+.site-nav--active a, .site-nav__submenu .site-nav--active a,
+.site-nav__link,
+.sub-footer a, .site-footer a,
+.medium-up--one-third,
+h1, .h1,
+h2, .h2,
+h3, .h3,
+small,
+.text-link {
+    color: #c4c4c2;
+}
+
+
+
+/* Store Search Bar Zone */
+svg:not(:root),
+.top-bar .search-bar__input,
+.icon,
+.breadcrumb-nav a {
+    filter: invert(1) !important;
+}
+
+hr,
+.site-nav__element:first-child {
+    border-top: solid #c4c4c2;
+}
+
+
+input, select, textarea,
+.collection-sorting__dropdown {
+    background-color: #2b3030;
+    color: #c4c4c2;
+}
