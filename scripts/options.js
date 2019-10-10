@@ -17,5 +17,4 @@ document.getElementById('theme').onchange = function () {
     chrome.tabs.query({active: true, currentWindow: true}, function (arrayOfTabs) {
         chrome.tabs.executeScript(arrayOfTabs[0].id, {'code': 'applyTheme("' + value + '")'});
     });
-    window.close();
 };
