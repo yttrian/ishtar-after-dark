@@ -34,6 +34,12 @@ body,
 	}
 }
 
+/* super script*/
+sup a {
+    color: #c4c4c2;
+}
+
+
 .header-section img,
 .body-section img,
 .left-column img,
