@@ -212,7 +212,7 @@ sup a {
     filter: grayscale(.4) brightness(.9);
 }
 
-..left-column-section {
+.left-column-section {
     color: #bcbcbc;
 }
 
