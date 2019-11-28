@@ -14,12 +14,12 @@ A clear and concise description of what looks wrong.
 A clear and concise description of what you expected things to look like.
 
 **Affected theme(s)**
-A listing of the theme(s) that have this issue.
+A listing of the themes that have this issue.
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. Windows]
- - Browser [e.g. Chrome, Opera]
- - Version [e.g. 1.2]
+ - OS: [e.g. Windows 10]
+ - Browser: [e.g. Chrome 72, Opera 64]
+ - Version: [e.g. 1.2]
