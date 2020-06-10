@@ -34,7 +34,7 @@ body,
 }
 
 .has-banner .header li input {
-    filter: brightness(0.8); 
+    filter: brightness(0.8);
 }
 
 .has-banner .header li input:focus,
@@ -59,14 +59,14 @@ sup a {
 
 .title,
 .pre-title {
-    color :#bcbcbc ;
+    color: #bcbcbc;
 }
 
 .carousel .banner {
     background-color: #6e6e6e !important;
     background-blend-mode: overlay;
     filter: grayscale(.5);
-    border-bottom-width: .rem;
+    /*border-bottom-width: .rem;*/
 }
 
 .carousel .banner .view-entries a {
@@ -74,7 +74,7 @@ sup a {
 }
 
 .banner,
-.home banner full-width {
+.home .banner .full-width {
     filter: grayscale(.3) brightness(.6);
 }
 
@@ -100,14 +100,14 @@ sup a {
 .header-section img,
 .body-section img,
 .left-column img,
-.right-column img { 
+.right-column img {
     filter: grayscale(.1) brightness(.3);
 }
 
 .tabs .tab {
     background-color: #1e2121 !important;
     color: #a0a0a0 !important;
-} 
+}
 
 .tabs .tab h3,
 .tabs .tab a {
@@ -194,7 +194,7 @@ sup a {
 }
 
 .patreon-widget {
-    filter: grayscale(0.2)  brightness(.5);
+    filter: grayscale(0.2) brightness(.5);
 }
 
 .episode-artwork img {
@@ -212,7 +212,7 @@ sup a {
     filter: grayscale(.4) brightness(.9);
 }
 
-..left-column-section {
+.left-column-section {
     color: #bcbcbc;
 }
 
@@ -236,8 +236,8 @@ textarea {
     background-color: #ff7d0047;
 }
 
-::selection { 
-    background: rgba(145, 200, 233, 0.47); 
+::selection {
+    background: rgba(145, 200, 233, 0.47);
 }
 
 .multiline-directive {
@@ -250,8 +250,6 @@ textarea {
 .has-banner .header li input {
     filter: invert(1) !important;
 }
-
-
 
 
 /*Commons Site*/
@@ -376,8 +374,6 @@ img.avatar,
 }
 
 
-
-
 /*Store Page*/
 
 .top-bar a, .site-header a,
@@ -393,7 +389,6 @@ small,
 .text-link {
     color: #bcbcbc;
 }
-
 
 
 /* Store Search Bar Zone */

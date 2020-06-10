@@ -29,9 +29,9 @@ body,
 }
 
 @media (min-width: 50em) {
-	.drop-caps:first-letter {
-		border-color: #707979;
-	}
+    .drop-caps:first-letter {
+        border-color: #707979;
+    }
 }
 
 .header-section img,
@@ -85,9 +85,8 @@ body,
 
 
 .search-dark-2eacfab451275811395394869ae579ca78240b1ce0e1efedbe218d82ced35170.png {
-    filter: greyscale(0.4) brightness (7) !important;
+    filter: grayscale(0.4) brightness(7) !important;
 }
-
 
 
 /*Commons Site*/
@@ -216,8 +215,6 @@ img.avatar,
 }
 
 
-
-
 /*Store Page*/
 
 .top-bar a, .site-header a,
@@ -233,7 +230,6 @@ small,
 .text-link {
     color: #c4c4c2;
 }
-
 
 
 /* Store Search Bar Zone */

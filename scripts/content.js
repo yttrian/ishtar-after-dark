@@ -1,5 +1,3 @@
-/*global chrome document*/
-
 'use strict';
 
 chrome.storage.sync.get(['theme'], function (result) {

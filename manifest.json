@@ -1,25 +1,43 @@
 {
-   "background": {
-      "persistent": false,
-      "scripts": [ "scripts/background.js" ]
-   },
-   "browser_action": {
-      "default_popup": "views/popup.html"
-   },
-   "content_scripts": [ {
-      "js": [ "scripts/content.js" ],
-      "matches": [ "https://www.ishtar-collective.net/*", "https://errata.ishtar-collective.net/*", "https://commons.ishtar-collective.net/*", "https://store.ishtar-collective.net/*" ]
-   } ],
-   "description": "Adds a night mode to Ishtar Collective",
-   "icons": {
-      "128": "images/logo-medium128.png",
-      "96": "images/logo-medium96.png",
-      "16": "images/logo-medium16.png"
-   },
-   
-   "manifest_version": 2,
-   "name": "Ishtar After Dark",
-   "permissions": [ "storage", "https://*.ishtar-collective.net/*" ],
-   "version": "1.2",
-   "web_accessible_resources": [ "styles/nightfall.css", "styles/gambit.css", "styles/vanguard.css", "styles/the-darkness.css" ]
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "browser_action": {
+    "default_popup": "views/popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "https://www.ishtar-collective.net/*",
+        "https://errata.ishtar-collective.net/*",
+        "https://commons.ishtar-collective.net/*",
+        "https://store.ishtar-collective.net/*"
+      ]
+    }
+  ],
+  "description": "Adds a night mode to Ishtar Collective",
+  "icons": {
+    "128": "images/logo-medium128.png",
+    "96": "images/logo-medium96.png",
+    "16": "images/logo-medium16.png"
+  },
+  "manifest_version": 2,
+  "name": "Ishtar After Dark",
+  "permissions": [
+    "storage",
+    "https://*.ishtar-collective.net/*"
+  ],
+  "version": "1.2",
+  "web_accessible_resources": [
+    "styles/nightfall.css",
+    "styles/gambit.css",
+    "styles/vanguard.css",
+    "styles/the-darkness.css"
+  ]
 }

@@ -85,23 +85,23 @@ body,
 .header-section img,
 .body-section img,
 .left-column img,
-.right-column img { 
+.right-column img {
     filter: grayscale(0.2) brightness(.65);
 }
 
 .tabs .tab {
     background-color: #2d3c3f !important;
     color: #c3cacb !important;
-} 
+}
 
 .tabs .tab h3,
 .tabs .tab a {
-    color: #c3cacb!important;
+    color: #c3cacb !important;
 }
 
 .tabs .tab.selected,
 .tabs .tab.selected:hover {
-    background-color: #232e31!important;
+    background-color: #232e31 !important;
 }
 
 .tabs .tab.selected h3,
@@ -114,7 +114,7 @@ body,
 /*   Release DLC images */
 
 .page-releases .thumb.release {
-    filter: grayscale (0.5) brightness(1);
+    filter: grayscale(0.5) brightness(1);
     border-top: 2px solid #dcffff;
     border-bottom: 2px solid #dcffff;
 }
@@ -145,8 +145,6 @@ body,
     background-blend-mode: overlay;
     border-bottom-width: 1rem;
 }
-
-
 
 
 /*Commons Site*/
@@ -275,8 +273,6 @@ img.avatar,
 }
 
 
-
-
 /*Store Page*/
 
 .top-bar a, .site-header a,
@@ -292,7 +288,6 @@ small,
 .text-link {
     color: #c3cacb;
 }
-
 
 
 /* Store Search Bar Zone */

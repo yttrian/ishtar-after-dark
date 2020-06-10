@@ -94,7 +94,7 @@ body,
 .tabs .tab {
     background-color: #191a1a !important;
     color: #cacbcb !important;
-} 
+}
 
 .tabs .tab h3,
 .tabs .tab a {
@@ -110,8 +110,8 @@ body,
 .tabs .tab.selected a,
 .tabs .tab.selected:hover h3,
 .tabs .tab.selected:hover a {
-        color: #8d8e8e !important;
- }
+    color: #8d8e8e !important;
+}
 
 
 /*Credits Page*/
@@ -142,8 +142,6 @@ body,
 }
 
 
-
-
 /*Commons Site*/
 
 .nav-pills > li,
@@ -171,6 +169,7 @@ body,
 tbody {
     border-top: 3px solid #cacbcb;
 }
+
 .table-heading,
 .latest-topic-list-item {
     border-bottom: 3px solid #cacbcb;
@@ -201,7 +200,7 @@ button.dismiss-read,
 
 .select-kit.combo-box.category-drop .category-drop-header.is-none .selected-name,
 .list-controls .select-kit {
-    
+
     color: #cacbcb;
 }
 
@@ -253,11 +252,10 @@ img.avatar,
     filter: grayscale(.2) brightness(.7);
     opacity: 0.8 !important;
 }
+
 .post-box .post-text h3, .post-box .post-text .description, .post-box .post-text .details {
     color: #cacbcb;
 }
-
-
 
 
 /*Store Page*/
@@ -275,7 +273,6 @@ small,
 .text-link {
     color: #cacbcb;
 }
-
 
 
 /* Store Search Bar Zone */
