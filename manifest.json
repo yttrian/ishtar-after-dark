@@ -33,7 +33,7 @@
     "storage",
     "https://*.ishtar-collective.net/*"
   ],
-  "version": "1.2",
+  "version": "1.4",
   "web_accessible_resources": [
     "styles/nightfall.css",
     "styles/gambit.css",

@@ -34,6 +34,12 @@ body,
     }
 }
 
+/* super script*/
+sup a {
+    color: #c4c4c2;
+}
+
+
 .header-section img,
 .body-section img,
 .left-column img,
@@ -74,6 +80,9 @@ body,
     filter: grayscale(0.1) brightness(.8);
 }
 
+.left-column-section {
+    color: #c4c4c2;
+}
 
 .page-credits .staff,
 .page-credits .contributor,
